@@ -8,6 +8,7 @@ disabled_rules:
   - todo
   - unused_capture_list
   - enum_case_associated_values_count
+  - muliple_closures_with_trailing_closure
 
 opt_in_rules:
   - array_init
@@ -15,7 +16,7 @@ opt_in_rules:
   - closure_end_indentation
   - closure_spacing
   - collection_alignment
-  - colon # promote to error
+  - colon
   - convenience_type
   - discouraged_object_literal
   - empty_collection_literal
@@ -23,7 +24,6 @@ opt_in_rules:
   - empty_string
   - fatal_error_message
   - first_where
-#  - force_unwrapping
   - implicitly_unwrapped_optional
   - indentation_width
   - last_where
@@ -55,7 +55,7 @@ custom_rules:
     name: "Array/Dictionary initializer"
     regex: '[let,var] .+ = (\[.+\]\(\))'
     capture_group: 1
-    message: "Use explicit type annotation when initializing empty arrays and dictionaries"
+    message: "Use explicit type annotation when initialising empty arrays and dictionaries"
     severity: warning
 
 
