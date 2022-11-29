@@ -9,15 +9,7 @@
 [![Website](https://img.shields.io/badge/web-jrogel-black)](https://jrogel.com)
 [![Website](https://img.shields.io/badge/web-RogueLoop-black)](https://rogueloop.jrogel.com)
 
-This repo contains information used to configure [SwiftLint](https://github.com/realm/SwiftLint) 
-
-The SwiftLint configuration in this repo is designed to ensure the work we create at raywenderlich.com conforms with [The Official raywenderlich.com Swift Style Guide](https://github.com/raywenderlich/swift-style-guide).
-
-The focus of this style is to improve readability in our print and web publications. Therefore, this style may be different from others you've been used to, but the demands of print and online reading are different than other contexts.
-
-The policies described here have a goal of achieving consistency between all of our projects, which will also streamline the flow of content through our editing process. Some of the choices are also to make sure that we've removed as much of the burden from our readers as possible.
-
-These guides use SwiftLint as a standard. You can learn more about SwiftLint by visiting its [official documentation page](https://github.com/realm/SwiftLint).
+This repo contains information used to configure [SwiftLint](https://github.com/realm/SwiftLint). These guides use SwiftLint as a standard. You can learn more about SwiftLint by visiting its [official documentation page](https://github.com/realm/SwiftLint).
 
 ## Table of Contents
 
